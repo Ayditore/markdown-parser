@@ -5,31 +5,4 @@
 
 [1,2,3,4,5](Ghost_in_Shell.png)
 
-[Link to Youtube]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(https://www.youtube.com/)
+[Link to Youtube](https://www.youtube.com/)
