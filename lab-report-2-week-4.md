@@ -17,7 +17,7 @@ These changes are made to fix the symptom caused by failure-inducing input
 [Second test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-2.md)
 
 **2nd Symptom I saw when I ran my code before 2nd code changing**
-[Symptom 2](Symptom-2.png)
+![Symptom 2](Symptom-2.png)
 
 ## Third Code Change: Situation when the file uses () but no []
 
@@ -25,4 +25,4 @@ These changes are made to fix the symptom caused by failure-inducing input
 [Third test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-3.md)
 
 **3rd Symptom I saw when I ran my code before 2nd code changing**
-[Symptom 3](Symptom-3.png)
+![Symptom 3](Symptom-3.png)
