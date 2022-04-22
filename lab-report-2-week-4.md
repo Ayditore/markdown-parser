@@ -1,8 +1,8 @@
 # Welcome to Anthony's Lab Report
 
-In this report, I would like to show you three code change.
-These changes are made to fix the symptom caused by failure-inducing input
-
+In this report, I would like to show you three code change. These changes are made to fix the symptom caused by failure-inducing input  
+  
+  
 ## First Code Change: Avoid Reference to Image  
 
 **Screenshot of the first code change difference implemented to fix bug**  
@@ -21,6 +21,7 @@ So I think the symptom is shown because the method cannot differentiate a refere
 I uses a if statement to differentiate between image and url by checking if the link includes "https" or "www."  
 These are two identifier which can identify a url to web page.  
 
+---
 ## Second Code Change: Situation when the file contains no links  
 
 **Screenshot of the second code change difference implemented to fix bug**  
@@ -37,6 +38,7 @@ The second symptom I saw is that I met a java outofbound error when running the 
 I think this symptom is caused by the system cannot find open bracket in the file.  
 Then, to fix the bug, I added a if statement to return a empty list if no url bracket is found.  
 
+---
 ## Third Code Change: Situation when the file uses () but no []  
 
 **Screenshot of the third code change difference implemented to fix bug**  
