@@ -17,17 +17,26 @@ public class MarkdownParse {
             int openParen = markdown.indexOf("(", closeBracket);
             int closeParen = markdown.indexOf(")", openParen);
             if (openBracket == -1) {
-                break;
+                if (openParen != -1) {
+                    System.out.println("Invalid format exist in the file, please check url format");
+                    return new ArrayList<String>();
+                }else{
+                    break;
+                }
             }
+
             if (markdown.substring(openParen + 1, closeParen).contains("https")
-                    || markdown.substring(openParen + 1, closeParen).contains("www.")) {
+                    || markdown.substring(openParen + 1, closeParen).contains("www."))
+
+            {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
             currentIndex = closeParen + 1;
         }
-
         return toReturn;
     }
+
+    
 
     public static void main(String[] args) throws IOException {
         Path fileName = Path.of(args[0]);
