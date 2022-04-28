@@ -17,12 +17,7 @@ public class MarkdownParse {
             int openParen = markdown.indexOf("(", closeBracket);
             int closeParen = markdown.indexOf(")", openParen);
             if (openBracket == -1) {
-                if (openParen != -1) {
-                    System.out.println("Invalid format exist in the file, please check url format");
-                    return new ArrayList<String>();
-                }else{
-                    break;
-                }
+                break;
             }
 
             if (markdown.substring(openBracket-2, openBracket).contains("!") == false)
