@@ -18,8 +18,9 @@ In this report, I would like to show you three code change. These changes are ma
 The symptom I saw is that the output of the program includes the reference to the picture.  
 From the lab instruction document, I noticed that the output should only include url.  
 So I think the symptom is shown because the method cannot differentiate a reference from a url in the input.  
-I uses a if statement to differentiate between image and url by checking if the link includes "https" or "www."  
-These are two identifier which can identify a url to web page.  
+After reading the feedback, I realized that the class wants us to differentiate a picture from a url by
+handle the `!` in image links instead of using `https` or `www`.
+Thus, I updated my file to differentiate whether the link has a `!` to determine if a link is a url or a picture.
 
 ---
 ## Second Code Change: Situation when the file contains no links  
