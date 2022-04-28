@@ -9,7 +9,7 @@ In this report, I would like to show you three code change. These changes are ma
 ![First code change to fix bug](Code-Change-1.png)  
 
 **Link to the fist test file**  
-[First test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-4.md) 
+[First test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-2.md) 
 
 **1st Symptom I saw when I ran my code before first code changing**  
 ![Symptom 1](Symptom-1.png)  
@@ -28,7 +28,7 @@ These are two identifier which can identify a url to web page.
 ![Second code change to fix bug](Code-Change-2.png)  
 
 **Link to the second test file**  
-[Second test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-2.md)  
+[Second test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-4.md)  
 
 **2nd Symptom I saw when I ran my code before 2nd code changing**  
 ![Symptom 2](Symptom-2.png)  
