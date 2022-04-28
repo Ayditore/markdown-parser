@@ -25,9 +25,7 @@ public class MarkdownParse {
                 }
             }
 
-            if (markdown.substring(openParen + 1, closeParen).contains("https")
-                    || markdown.substring(openParen + 1, closeParen).contains("www."))
-
+            if (markdown.substring(openBracket-2, openBracket).contains("!") == false)
             {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }
