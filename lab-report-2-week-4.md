@@ -15,7 +15,7 @@ In this report, I would like to show you three code change. These changes are ma
 ![Symptom 1](Symptom-1.png)  
 
 **Description of the relationship between the bug, the symptom, and the failure-inducing input**  
-The symptom I saw is that the output of the program includes the reference to the picture.  
+The symptom I saw is that the output of the program includes the reference to the picture when I expected only url included in the output.  
 From the lab instruction document, I noticed that the output should only include url.  
 So I think the symptom is shown because the method cannot differentiate a reference from a url in the input.  
 After reading the feedback, I realized that the class wants us to differentiate a picture from a url by
