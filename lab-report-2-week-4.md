@@ -48,7 +48,7 @@ Then, to fix the bug, I added a if statement to return a empty list if no url br
 **Link to the third test file**  
 [Third test case link](https://github.com/Ayditore/markdown-parser/blob/main/test-file-3.md)  
 
-**3rd Symptom I saw when I ran my code before 2nd code changing**  
+**3rd Symptom I saw when I ran my code before 3rd code changing**  
 ![Symptom 3](Symptom-3.png)  
 
 **Description of the relationship between the bug, the symptom, and the failure-inducing input**  
