@@ -40,7 +40,7 @@ I think this symptom is caused by the system cannot find open bracket in the fil
 Then, to fix the bug, I added a if statement to return a empty list if no url bracket is found.  
 
 ---
-## Third Code Change: Situation when the file uses () but no []  
+## Third Code Change: Situation when the file contains a line uses () and [] but not for the purpose of url link
 
 **Screenshot of the third code change difference implemented to fix bug**  
 ![Third code change to fix bug](Code-Change-3.png)  
@@ -52,6 +52,7 @@ Then, to fix the bug, I added a if statement to return a empty list if no url br
 ![Symptom 3](Symptom-3.png)  
 
 **Description of the relationship between the bug, the symptom, and the failure-inducing input**  
-The third sympton I saw is that the program output a empty output when the file only have `()`.  
-This symptom reflects that the program does not have the capability to deal with invalid input.  
-Thus, I improved the if statement mentioned in the second code change to output a "invalid output" message.  
+The third sympton I saw is that the program output a list of url but includes a blank space.  
+I think it is because the program cannot differentiate a blank url space from a url link.  
+To fix this issue, I added a if statement to check if the content inside [] is blank.  
+After the code change, the program's output will no onger contains blank url.  
