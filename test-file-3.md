@@ -1,4 +1,3 @@
-## Try a file that has additional line
+## A test file with blank link braket
 
-[Link to Youtube](https://www.youtube.com/)
-[Link to Youtube](https://www.youtube.com/)
+This is a file with () and [] but not facilitate url link functions
